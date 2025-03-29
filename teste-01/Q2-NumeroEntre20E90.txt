@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+    
+    var numero int
+    
+    fmt.Println("Insira um número: ")
+    fmt.Scan(&numero)
+    
+    if numero >= 20 && numero <= 90 {
+        fmt.Println("Os requisitos foram cumpridos.")
+    } else {
+        fmt.Println("Os requisitos não foram cumpridos.")
+    }
+}
